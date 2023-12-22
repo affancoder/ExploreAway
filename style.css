@@ -12,6 +12,11 @@ body {
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
+HTML,
+body {
+  flex-wrap: wrap;
+  height: auto;
+}
 img {
   height: 720px;
   justify-content: center;
@@ -109,18 +114,11 @@ form {
   height: 350px;
   width: 500px;
 }
-/* .how {
-  height: 300px;
-  width: 450px;
+
+.major-list {
+  height: auto;
 }
-.kb {
-  height: 300px;
-  width: 450px;
-}
-.lad {
-  height: 300px;
-  width: 450px;
-} */
+
 .email {
   box-sizing: border-box;
   width: 30%;
@@ -151,16 +149,17 @@ footer {
   flex-wrap: wrap;
 }
 .footer-logo {
-  font-size: 26px;
+  font-size: 30px;
   font-weight: bold;
   margin-bottom: 10px;
 }
 .footer-nav {
   list-style: none;
-  padding: 0;
+  /* padding: 0; */
   display: flex;
   flex-wrap: wrap;
-  margin: 0;
+  margin-top: 14px;
+  font-size: 16px;
 }
 .footer-nav li {
   margin-right: 30px;
