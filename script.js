@@ -1,9 +1,11 @@
-const livesearch = () => {
-  const input = document.querySelector("#search");
-  const filter = input.value.toUpperCase();
-  const list = document.querySelectorAll("card-title");
-  list.forEach((el) => {
-    const text = el.textContent.toUpperCase();
-    el.style.display = text.includes(filter) ? "" : "none";
+function scrollToTop() {
+  // Scroll to the top of the page
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth", // Optional: adds smooth scrolling animation
   });
-};
+}
+
+document.addEventListener("contextmenu", function (e) {
+  e.preventDefault();
+});
