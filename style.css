@@ -33,7 +33,6 @@ img {
 .west:hover {
   cursor: pointer;
   color: lightseagreen;
-  /* font-size: 3.5rem; */
   transition: ease-in 0.3s;
 }
 .top {
@@ -61,14 +60,13 @@ img {
   text-align: center;
   cursor: pointer;
   color: red;
-  /* font-size: 3rem; */
   transition: ease-in 0.3s;
 }
 form {
   justify-content: center;
   width: 300px;
 }
-/* part one end  */
+/* --------------part one end----------  */
 .gateway {
   box-sizing: border-box;
   margin-left: 700px;
@@ -142,6 +140,8 @@ form {
   transform: scale(1.1);
   transition: 1s;
 }
+
+/* ---------------footer------------- */
 
 footer {
   background-color: #262626;
