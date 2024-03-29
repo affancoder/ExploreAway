@@ -17,11 +17,17 @@ body {
   flex-wrap: wrap;
   height: auto;
 }
+/* -- Navbar start -- */
+
+
+
+/* -- Navbar end -- */
+
 img {
   height: 720px;
   justify-content: center;
-  border-radius: 10px;
-  padding: 5px;
+  border-radius: 26px;
+  padding: 10px;
   cursor: pointer;
 }
 .west {
@@ -141,7 +147,16 @@ form {
   transition: 1s;
 }
 
-/* ---------------footer------------- */
+.card-group-img {
+  overflow: hidden;
+}
+
+#pop:hover img {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+/* --------------- Footer------------- */
 
 footer {
   background-color: #262626;

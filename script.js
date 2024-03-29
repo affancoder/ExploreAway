@@ -6,6 +6,8 @@ function scrollToTop() {
   });
 }
 
-document.addEventListener("contextmenu", function (e) {
-  e.preventDefault();
-});
+// -- To disable right click --
+
+// document.addEventListener("contextmenu", function (e) {
+//   e.preventDefault();
+// });
